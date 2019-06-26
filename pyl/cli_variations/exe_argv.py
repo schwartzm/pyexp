@@ -6,6 +6,7 @@
 # See the exe_argparse.py example.
 # Note: The use of a main() is not required.
 # The filename is exe_argv.py.
+# Note: The filename "exe_argv" is irrelevant. Can be foo.py.
 #
 # 1) Create the file exe_argv.exe
 # 2) Make executable: chmod +x exe_arvg.py (OR chmod 755 exe_argv.py)

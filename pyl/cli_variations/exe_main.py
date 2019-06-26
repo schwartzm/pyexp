@@ -3,6 +3,7 @@
 # Example of an executable Python
 # script in Linux with a main() function.
 # The filename is exe_main.py.
+# Note: The filename "exe_main" is irrelevant. Can be foo.py.
 #
 # 1) Create the file exe_main.exe
 # 2) Make executable: chmod +x exe_main.py (OR chmod 755 exe_main.py)

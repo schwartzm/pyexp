@@ -6,6 +6,7 @@
 # Best to read https://docs.python.org/3/howto/argparse.html
 # Note: The use of a main() is not required.
 # The filename is exe_arparse.py.
+# Note: The filename "exe_argparse" is irrelevant. Can be foo.py.
 #
 # 1) Create the file exe_argparse.exe
 # 2) Make executable: chmod +x exe_arparse.py (OR chmod 755 exe_argparse.py)

@@ -2,6 +2,7 @@
 
 # Example of a barebones "executable" Python
 # script in Linux. The filename is exe.py.
+# Note: The filename "exe" is irrelevant. Can be foo.py.
 #
 # In other words, not invoking like:
 #     $ python exe.py
