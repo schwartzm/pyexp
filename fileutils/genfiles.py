@@ -11,10 +11,11 @@ parser = argparse.ArgumentParser(
 parser.add_argument('--num', type=int, default=10, help='number of files to create')
 parser.add_argument('--min', type=int, default=50, help='minimum file size (bytes)')
 parser.add_argument('--max', type=int, default=1000, help='maximum file size (bytes)')
+parser.add_argument('--dir', type=str, default='files', help='the output folder')
 args = parser.parse_args()
 
 def main():
-    folder = Path.cwd() / 'files'
+    folder = Path.cwd() / args.dir
     if folder.is_dir():
         shutil.rmtree(folder)
     
